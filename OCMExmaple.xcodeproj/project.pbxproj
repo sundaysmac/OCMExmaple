@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0004C98236297680031F943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0004C97236297680031F943 /* AppDelegate.m */; };
+		A0004C9B236297680031F943 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0004C9A236297680031F943 /* ViewController.m */; };
+		A0004C9D2362976A0031F943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0004C9C2362976A0031F943 /* Assets.xcassets */; };
+		A0004CA02362976A0031F943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0004C9E2362976A0031F943 /* Main.storyboard */; };
+		A0004CA32362976A0031F943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0004CA22362976A0031F943 /* main.m */; };
+		A0004CAE2362976A0031F943 /* OCMExmapleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0004CAD2362976A0031F943 /* OCMExmapleTests.m */; };
+		A0004CB92362976A0031F943 /* OCMExmapleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0004CB82362976A0031F943 /* OCMExmapleUITests.m */; };
+		A0004CC9236298370031F943 /* NSCollectionView+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A0004CC8236298370031F943 /* NSCollectionView+SQ.m */; };
+		A0004CCC23629E490031F943 /* NSTableView+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A0004CCB23629E490031F943 /* NSTableView+SQ.m */; };
+		A0004D802362DB640031F943 /* NSDatePicker+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A0004D7F2362DB640031F943 /* NSDatePicker+SQ.m */; };
+		A0004D842362DDE20031F943 /* NSDateFormatter+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A0004D832362DDE20031F943 /* NSDateFormatter+SQ.m */; };
+		A0004D882362E01F0031F943 /* DatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0004D872362E01F0031F943 /* DatePickerController.m */; };
+		A0004DCA2362E8420031F943 /* NSPopover+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A0004DC92362E8420031F943 /* NSPopover+SQ.m */; };
+		A01752032366828A00864BC5 /* NSSlider+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A01752022366828A00864BC5 /* NSSlider+SQ.m */; };
+		A037A9DC236B16B300877CA1 /* NSStepper+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A037A9DB236B16B300877CA1 /* NSStepper+SQ.m */; };
+		A037A9DF236B1ABC00877CA1 /* NSSplitView+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A037A9DE236B1ABC00877CA1 /* NSSplitView+SQ.m */; };
+		A03E40DE2373A859007C8D54 /* NSStatusBar+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40DD2373A859007C8D54 /* NSStatusBar+SQ.m */; };
+		A03E40E12373A9CB007C8D54 /* NSStatusItem+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40E02373A9CB007C8D54 /* NSStatusItem+SQ.m */; };
+		A03E40E42373AFBB007C8D54 /* NSMenu+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40E32373AFBB007C8D54 /* NSMenu+SQ.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0004CAA2362976A0031F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0004C8B236297680031F943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0004C92236297680031F943;
+			remoteInfo = OCMExmaple;
+		};
+		A0004CB52362976A0031F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0004C8B236297680031F943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0004C92236297680031F943;
+			remoteInfo = OCMExmaple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0004C93236297680031F943 /* OCMExmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCMExmaple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0004C96236297680031F943 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0004C97236297680031F943 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0004C99236297680031F943 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0004C9A236297680031F943 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0004C9C2362976A0031F943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0004C9F2362976A0031F943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0004CA12362976A0031F943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0004CA22362976A0031F943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0004CA42362976A0031F943 /* OCMExmaple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OCMExmaple.entitlements; sourceTree = "<group>"; };
+		A0004CA92362976A0031F943 /* OCMExmapleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMExmapleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0004CAD2362976A0031F943 /* OCMExmapleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMExmapleTests.m; sourceTree = "<group>"; };
+		A0004CAF2362976A0031F943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0004CB42362976A0031F943 /* OCMExmapleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMExmapleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0004CB82362976A0031F943 /* OCMExmapleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMExmapleUITests.m; sourceTree = "<group>"; };
+		A0004CBA2362976A0031F943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0004CC7236298370031F943 /* NSCollectionView+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCollectionView+SQ.h"; sourceTree = "<group>"; };
+		A0004CC8236298370031F943 /* NSCollectionView+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSCollectionView+SQ.m"; sourceTree = "<group>"; };
+		A0004CCA23629E490031F943 /* NSTableView+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTableView+SQ.h"; sourceTree = "<group>"; };
+		A0004CCB23629E490031F943 /* NSTableView+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTableView+SQ.m"; sourceTree = "<group>"; };
+		A0004D7E2362DB640031F943 /* NSDatePicker+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDatePicker+SQ.h"; sourceTree = "<group>"; };
+		A0004D7F2362DB640031F943 /* NSDatePicker+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDatePicker+SQ.m"; sourceTree = "<group>"; };
+		A0004D822362DDE20031F943 /* NSDateFormatter+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+SQ.h"; sourceTree = "<group>"; };
+		A0004D832362DDE20031F943 /* NSDateFormatter+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+SQ.m"; sourceTree = "<group>"; };
+		A0004D862362E01F0031F943 /* DatePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickerController.h; sourceTree = "<group>"; };
+		A0004D872362E01F0031F943 /* DatePickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerController.m; sourceTree = "<group>"; };
+		A0004DC82362E8420031F943 /* NSPopover+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSPopover+SQ.h"; sourceTree = "<group>"; };
+		A0004DC92362E8420031F943 /* NSPopover+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSPopover+SQ.m"; sourceTree = "<group>"; };
+		A01752012366828A00864BC5 /* NSSlider+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSlider+SQ.h"; sourceTree = "<group>"; };
+		A01752022366828A00864BC5 /* NSSlider+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSlider+SQ.m"; sourceTree = "<group>"; };
+		A037A9DA236B16B300877CA1 /* NSStepper+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSStepper+SQ.h"; sourceTree = "<group>"; };
+		A037A9DB236B16B300877CA1 /* NSStepper+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSStepper+SQ.m"; sourceTree = "<group>"; };
+		A037A9DD236B1ABC00877CA1 /* NSSplitView+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSplitView+SQ.h"; sourceTree = "<group>"; };
+		A037A9DE236B1ABC00877CA1 /* NSSplitView+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSplitView+SQ.m"; sourceTree = "<group>"; };
+		A03E40DC2373A859007C8D54 /* NSStatusBar+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSStatusBar+SQ.h"; sourceTree = "<group>"; };
+		A03E40DD2373A859007C8D54 /* NSStatusBar+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSStatusBar+SQ.m"; sourceTree = "<group>"; };
+		A03E40DF2373A9CB007C8D54 /* NSStatusItem+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSStatusItem+SQ.h"; sourceTree = "<group>"; };
+		A03E40E02373A9CB007C8D54 /* NSStatusItem+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSStatusItem+SQ.m"; sourceTree = "<group>"; };
+		A03E40E22373AFBB007C8D54 /* NSMenu+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMenu+SQ.h"; sourceTree = "<group>"; };
+		A03E40E32373AFBB007C8D54 /* NSMenu+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMenu+SQ.m"; sourceTree = "<group>"; };
+		A03E40E52373B7D0007C8D54 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0004C90236297680031F943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0004CA62362976A0031F943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0004CB12362976A0031F943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0004C8A236297680031F943 = {
+			isa = PBXGroup;
+			children = (
+				A0004C95236297680031F943 /* OCMExmaple */,
+				A0004CAC2362976A0031F943 /* OCMExmapleTests */,
+				A0004CB72362976A0031F943 /* OCMExmapleUITests */,
+				A0004C94236297680031F943 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0004C94236297680031F943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0004C93236297680031F943 /* OCMExmaple.app */,
+				A0004CA92362976A0031F943 /* OCMExmapleTests.xctest */,
+				A0004CB42362976A0031F943 /* OCMExmapleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0004C95236297680031F943 /* OCMExmaple */ = {
+			isa = PBXGroup;
+			children = (
+				A0004D852362DFFB0031F943 /* Class */,
+				A0004CC6236297DA0031F943 /* Extension */,
+				A0004C96236297680031F943 /* AppDelegate.h */,
+				A0004C97236297680031F943 /* AppDelegate.m */,
+				A0004C99236297680031F943 /* ViewController.h */,
+				A0004C9A236297680031F943 /* ViewController.m */,
+				A0004C9C2362976A0031F943 /* Assets.xcassets */,
+				A0004C9E2362976A0031F943 /* Main.storyboard */,
+				A0004CA12362976A0031F943 /* Info.plist */,
+				A0004CA22362976A0031F943 /* main.m */,
+				A0004CA42362976A0031F943 /* OCMExmaple.entitlements */,
+				A03E40E52373B7D0007C8D54 /* PrefixHeader.pch */,
+			);
+			path = OCMExmaple;
+			sourceTree = "<group>";
+		};
+		A0004CAC2362976A0031F943 /* OCMExmapleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0004CAD2362976A0031F943 /* OCMExmapleTests.m */,
+				A0004CAF2362976A0031F943 /* Info.plist */,
+			);
+			path = OCMExmapleTests;
+			sourceTree = "<group>";
+		};
+		A0004CB72362976A0031F943 /* OCMExmapleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0004CB82362976A0031F943 /* OCMExmapleUITests.m */,
+				A0004CBA2362976A0031F943 /* Info.plist */,
+			);
+			path = OCMExmapleUITests;
+			sourceTree = "<group>";
+		};
+		A0004CC6236297DA0031F943 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A0004CC7236298370031F943 /* NSCollectionView+SQ.h */,
+				A0004CC8236298370031F943 /* NSCollectionView+SQ.m */,
+				A0004CCA23629E490031F943 /* NSTableView+SQ.h */,
+				A0004CCB23629E490031F943 /* NSTableView+SQ.m */,
+				A0004D7E2362DB640031F943 /* NSDatePicker+SQ.h */,
+				A0004D7F2362DB640031F943 /* NSDatePicker+SQ.m */,
+				A0004D822362DDE20031F943 /* NSDateFormatter+SQ.h */,
+				A0004D832362DDE20031F943 /* NSDateFormatter+SQ.m */,
+				A0004DC82362E8420031F943 /* NSPopover+SQ.h */,
+				A0004DC92362E8420031F943 /* NSPopover+SQ.m */,
+				A01752012366828A00864BC5 /* NSSlider+SQ.h */,
+				A01752022366828A00864BC5 /* NSSlider+SQ.m */,
+				A037A9DA236B16B300877CA1 /* NSStepper+SQ.h */,
+				A037A9DB236B16B300877CA1 /* NSStepper+SQ.m */,
+				A037A9DD236B1ABC00877CA1 /* NSSplitView+SQ.h */,
+				A037A9DE236B1ABC00877CA1 /* NSSplitView+SQ.m */,
+				A03E40DC2373A859007C8D54 /* NSStatusBar+SQ.h */,
+				A03E40DD2373A859007C8D54 /* NSStatusBar+SQ.m */,
+				A03E40DF2373A9CB007C8D54 /* NSStatusItem+SQ.h */,
+				A03E40E02373A9CB007C8D54 /* NSStatusItem+SQ.m */,
+				A03E40E22373AFBB007C8D54 /* NSMenu+SQ.h */,
+				A03E40E32373AFBB007C8D54 /* NSMenu+SQ.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A0004D852362DFFB0031F943 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A0004D862362E01F0031F943 /* DatePickerController.h */,
+				A0004D872362E01F0031F943 /* DatePickerController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0004C92236297680031F943 /* OCMExmaple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0004CBD2362976A0031F943 /* Build configuration list for PBXNativeTarget "OCMExmaple" */;
+			buildPhases = (
+				A0004C8F236297680031F943 /* Sources */,
+				A0004C90236297680031F943 /* Frameworks */,
+				A0004C91236297680031F943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCMExmaple;
+			productName = OCMExmaple;
+			productReference = A0004C93236297680031F943 /* OCMExmaple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0004CA82362976A0031F943 /* OCMExmapleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0004CC02362976A0031F943 /* Build configuration list for PBXNativeTarget "OCMExmapleTests" */;
+			buildPhases = (
+				A0004CA52362976A0031F943 /* Sources */,
+				A0004CA62362976A0031F943 /* Frameworks */,
+				A0004CA72362976A0031F943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0004CAB2362976A0031F943 /* PBXTargetDependency */,
+			);
+			name = OCMExmapleTests;
+			productName = OCMExmapleTests;
+			productReference = A0004CA92362976A0031F943 /* OCMExmapleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0004CB32362976A0031F943 /* OCMExmapleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0004CC32362976A0031F943 /* Build configuration list for PBXNativeTarget "OCMExmapleUITests" */;
+			buildPhases = (
+				A0004CB02362976A0031F943 /* Sources */,
+				A0004CB12362976A0031F943 /* Frameworks */,
+				A0004CB22362976A0031F943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0004CB62362976A0031F943 /* PBXTargetDependency */,
+			);
+			name = OCMExmapleUITests;
+			productName = OCMExmapleUITests;
+			productReference = A0004CB42362976A0031F943 /* OCMExmapleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0004C8B236297680031F943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "曹亮亮";
+				TargetAttributes = {
+					A0004C92236297680031F943 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					A0004CA82362976A0031F943 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = A0004C92236297680031F943;
+					};
+					A0004CB32362976A0031F943 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = A0004C92236297680031F943;
+					};
+				};
+			};
+			buildConfigurationList = A0004C8E236297680031F943 /* Build configuration list for PBXProject "OCMExmaple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = A0004C8A236297680031F943;
+			productRefGroup = A0004C94236297680031F943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0004C92236297680031F943 /* OCMExmaple */,
+				A0004CA82362976A0031F943 /* OCMExmapleTests */,
+				A0004CB32362976A0031F943 /* OCMExmapleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0004C91236297680031F943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0004C9D2362976A0031F943 /* Assets.xcassets in Resources */,
+				A0004CA02362976A0031F943 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0004CA72362976A0031F943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0004CB22362976A0031F943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0004C8F236297680031F943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03E40E42373AFBB007C8D54 /* NSMenu+SQ.m in Sources */,
+				A037A9DC236B16B300877CA1 /* NSStepper+SQ.m in Sources */,
+				A0004DCA2362E8420031F943 /* NSPopover+SQ.m in Sources */,
+				A0004D842362DDE20031F943 /* NSDateFormatter+SQ.m in Sources */,
+				A03E40E12373A9CB007C8D54 /* NSStatusItem+SQ.m in Sources */,
+				A0004D882362E01F0031F943 /* DatePickerController.m in Sources */,
+				A03E40DE2373A859007C8D54 /* NSStatusBar+SQ.m in Sources */,
+				A0004C9B236297680031F943 /* ViewController.m in Sources */,
+				A0004CA32362976A0031F943 /* main.m in Sources */,
+				A01752032366828A00864BC5 /* NSSlider+SQ.m in Sources */,
+				A0004D802362DB640031F943 /* NSDatePicker+SQ.m in Sources */,
+				A0004C98236297680031F943 /* AppDelegate.m in Sources */,
+				A0004CCC23629E490031F943 /* NSTableView+SQ.m in Sources */,
+				A037A9DF236B1ABC00877CA1 /* NSSplitView+SQ.m in Sources */,
+				A0004CC9236298370031F943 /* NSCollectionView+SQ.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0004CA52362976A0031F943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0004CAE2362976A0031F943 /* OCMExmapleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0004CB02362976A0031F943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0004CB92362976A0031F943 /* OCMExmapleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0004CAB2362976A0031F943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0004C92236297680031F943 /* OCMExmaple */;
+			targetProxy = A0004CAA2362976A0031F943 /* PBXContainerItemProxy */;
+		};
+		A0004CB62362976A0031F943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0004C92236297680031F943 /* OCMExmaple */;
+			targetProxy = A0004CB52362976A0031F943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0004C9E2362976A0031F943 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0004C9F2362976A0031F943 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0004CBB2362976A0031F943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0004CBC2362976A0031F943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A0004CBE2362976A0031F943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OCMExmaple/OCMExmaple.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCMExmaple/PrefixHeader.pch";
+				INFOPLIST_FILE = OCMExmaple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhice.OCMExmaple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0004CBF2362976A0031F943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OCMExmaple/OCMExmaple.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCMExmaple/PrefixHeader.pch";
+				INFOPLIST_FILE = OCMExmaple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhice.OCMExmaple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0004CC12362976A0031F943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OCMExmapleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhice.OCMExmapleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCMExmaple.app/Contents/MacOS/OCMExmaple";
+			};
+			name = Debug;
+		};
+		A0004CC22362976A0031F943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OCMExmapleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhice.OCMExmapleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCMExmaple.app/Contents/MacOS/OCMExmaple";
+			};
+			name = Release;
+		};
+		A0004CC42362976A0031F943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OCMExmapleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhice.OCMExmapleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCMExmaple;
+			};
+			name = Debug;
+		};
+		A0004CC52362976A0031F943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OCMExmapleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhice.OCMExmapleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCMExmaple;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0004C8E236297680031F943 /* Build configuration list for PBXProject "OCMExmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0004CBB2362976A0031F943 /* Debug */,
+				A0004CBC2362976A0031F943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0004CBD2362976A0031F943 /* Build configuration list for PBXNativeTarget "OCMExmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0004CBE2362976A0031F943 /* Debug */,
+				A0004CBF2362976A0031F943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0004CC02362976A0031F943 /* Build configuration list for PBXNativeTarget "OCMExmapleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0004CC12362976A0031F943 /* Debug */,
+				A0004CC22362976A0031F943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0004CC32362976A0031F943 /* Build configuration list for PBXNativeTarget "OCMExmapleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0004CC42362976A0031F943 /* Debug */,
+				A0004CC52362976A0031F943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0004C8B236297680031F943 /* Project object */;
+}

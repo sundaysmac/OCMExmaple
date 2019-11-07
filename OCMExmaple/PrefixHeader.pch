@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  OCMExmaple
+//
+//  Created by 曹亮亮 on 2019/11/7.
+//  Copyright © 2019 曹亮亮. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "NSCollectionView+SQ.h"
+#import "NSTableView+SQ.h"
+#import "NSDatePicker+SQ.h"
+#import "NSDateFormatter+SQ.h"
+#import "NSPopover+SQ.h"
+#import "NSSlider+SQ.h"
+#import "NSStepper+SQ.h"
+#import "NSSplitView+SQ.h"
+#import "NSStatusBar+SQ.h"
+#import "NSStatusItem+SQ.h"
+#import "NSMenu+SQ.h"
+#endif /* PrefixHeader_pch */
