@@ -23,9 +23,14 @@
 
     
     //NSPopover
-    NSPopover *popover = [NSPopover sx_popverWith:NSAppearanceNameAqua contentVC:[NSViewController new] behavior:NSPopoverBehaviorTransient];
-    [popover showRelativeToRect:[self.button bounds] ofView:self.button preferredEdge:NSRectEdgeMaxY];
+//    NSPopover *popover = [NSPopover sx_popverWith:NSAppearanceNameAqua contentVC:[NSViewController new] behavior:NSPopoverBehaviorTransient];
+//    [popover showRelativeToRect:[self.button bounds] ofView:self.button preferredEdge:NSRectEdgeMaxY];
     
+    CGRect frame = CGRectMake(0, 0, 0, 0);
+    CGRect frame1 = CGRectZero;
+    CGRect frame2 = [[NSView alloc] init].frame;
+     NSLog(@"%@",NSStringFromRect(frame2));
+//    NSLog(@"%@---%@----%@",NSStringFromRect(NSRectFromCGRect(frame)),NSRectFromCGRect(frame1),NSRectFromCGRect(frame2));
     
 }
 //使用recommendedLayerContentsScale(_:)方法来获取系统为图片计算推荐的长宽值

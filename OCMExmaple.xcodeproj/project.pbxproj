@@ -26,6 +26,9 @@
 		A03E40DE2373A859007C8D54 /* NSStatusBar+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40DD2373A859007C8D54 /* NSStatusBar+SQ.m */; };
 		A03E40E12373A9CB007C8D54 /* NSStatusItem+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40E02373A9CB007C8D54 /* NSStatusItem+SQ.m */; };
 		A03E40E42373AFBB007C8D54 /* NSMenu+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40E32373AFBB007C8D54 /* NSMenu+SQ.m */; };
+		A03E40EC237428A1007C8D54 /* NSImageView+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40EB237428A1007C8D54 /* NSImageView+SQ.m */; };
+		A03E40EF2374393B007C8D54 /* SQImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40EE2374393B007C8D54 /* SQImageView.m */; };
+		A03E40F22374399B007C8D54 /* NSView+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40F12374399B007C8D54 /* NSView+SQ.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,12 @@
 		A03E40E22373AFBB007C8D54 /* NSMenu+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMenu+SQ.h"; sourceTree = "<group>"; };
 		A03E40E32373AFBB007C8D54 /* NSMenu+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMenu+SQ.m"; sourceTree = "<group>"; };
 		A03E40E52373B7D0007C8D54 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A03E40EA237428A1007C8D54 /* NSImageView+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImageView+SQ.h"; sourceTree = "<group>"; };
+		A03E40EB237428A1007C8D54 /* NSImageView+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImageView+SQ.m"; sourceTree = "<group>"; };
+		A03E40ED2374393B007C8D54 /* SQImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQImageView.h; sourceTree = "<group>"; };
+		A03E40EE2374393B007C8D54 /* SQImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQImageView.m; sourceTree = "<group>"; };
+		A03E40F02374399B007C8D54 /* NSView+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSView+SQ.h"; sourceTree = "<group>"; };
+		A03E40F12374399B007C8D54 /* NSView+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSView+SQ.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +205,12 @@
 				A03E40E02373A9CB007C8D54 /* NSStatusItem+SQ.m */,
 				A03E40E22373AFBB007C8D54 /* NSMenu+SQ.h */,
 				A03E40E32373AFBB007C8D54 /* NSMenu+SQ.m */,
+				A03E40EA237428A1007C8D54 /* NSImageView+SQ.h */,
+				A03E40EB237428A1007C8D54 /* NSImageView+SQ.m */,
+				A03E40ED2374393B007C8D54 /* SQImageView.h */,
+				A03E40EE2374393B007C8D54 /* SQImageView.m */,
+				A03E40F02374399B007C8D54 /* NSView+SQ.h */,
+				A03E40F12374399B007C8D54 /* NSView+SQ.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -342,12 +357,15 @@
 				A03E40E42373AFBB007C8D54 /* NSMenu+SQ.m in Sources */,
 				A037A9DC236B16B300877CA1 /* NSStepper+SQ.m in Sources */,
 				A0004DCA2362E8420031F943 /* NSPopover+SQ.m in Sources */,
+				A03E40F22374399B007C8D54 /* NSView+SQ.m in Sources */,
+				A03E40EF2374393B007C8D54 /* SQImageView.m in Sources */,
 				A0004D842362DDE20031F943 /* NSDateFormatter+SQ.m in Sources */,
 				A03E40E12373A9CB007C8D54 /* NSStatusItem+SQ.m in Sources */,
 				A0004D882362E01F0031F943 /* DatePickerController.m in Sources */,
 				A03E40DE2373A859007C8D54 /* NSStatusBar+SQ.m in Sources */,
 				A0004C9B236297680031F943 /* ViewController.m in Sources */,
 				A0004CA32362976A0031F943 /* main.m in Sources */,
+				A03E40EC237428A1007C8D54 /* NSImageView+SQ.m in Sources */,
 				A01752032366828A00864BC5 /* NSSlider+SQ.m in Sources */,
 				A0004D802362DB640031F943 /* NSDatePicker+SQ.m in Sources */,
 				A0004C98236297680031F943 /* AppDelegate.m in Sources */,
