@@ -29,6 +29,10 @@
 		A03E40EC237428A1007C8D54 /* NSImageView+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40EB237428A1007C8D54 /* NSImageView+SQ.m */; };
 		A03E40EF2374393B007C8D54 /* SQImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40EE2374393B007C8D54 /* SQImageView.m */; };
 		A03E40F22374399B007C8D54 /* NSView+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E40F12374399B007C8D54 /* NSView+SQ.m */; };
+		A0441340237A41C50059B014 /* NSTextField+SQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A044133F237A41C50059B014 /* NSTextField+SQ.m */; };
+		A0441343237A43260059B014 /* SQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A0441342237A43260059B014 /* SQTextField.m */; };
+		A0441346237A44AF0059B014 /* SQSearchFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0441345237A44AF0059B014 /* SQSearchFieldCell.m */; };
+		A0441349237A47440059B014 /* SQSearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = A0441348237A47440059B014 /* SQSearchField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +100,14 @@
 		A03E40EE2374393B007C8D54 /* SQImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQImageView.m; sourceTree = "<group>"; };
 		A03E40F02374399B007C8D54 /* NSView+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSView+SQ.h"; sourceTree = "<group>"; };
 		A03E40F12374399B007C8D54 /* NSView+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSView+SQ.m"; sourceTree = "<group>"; };
+		A044133E237A41C50059B014 /* NSTextField+SQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTextField+SQ.h"; sourceTree = "<group>"; };
+		A044133F237A41C50059B014 /* NSTextField+SQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTextField+SQ.m"; sourceTree = "<group>"; };
+		A0441341237A43260059B014 /* SQTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQTextField.h; sourceTree = "<group>"; };
+		A0441342237A43260059B014 /* SQTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQTextField.m; sourceTree = "<group>"; };
+		A0441344237A44AF0059B014 /* SQSearchFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQSearchFieldCell.h; sourceTree = "<group>"; };
+		A0441345237A44AF0059B014 /* SQSearchFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQSearchFieldCell.m; sourceTree = "<group>"; };
+		A0441347237A47440059B014 /* SQSearchField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQSearchField.h; sourceTree = "<group>"; };
+		A0441348237A47440059B014 /* SQSearchField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQSearchField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +223,14 @@
 				A03E40EE2374393B007C8D54 /* SQImageView.m */,
 				A03E40F02374399B007C8D54 /* NSView+SQ.h */,
 				A03E40F12374399B007C8D54 /* NSView+SQ.m */,
+				A044133E237A41C50059B014 /* NSTextField+SQ.h */,
+				A044133F237A41C50059B014 /* NSTextField+SQ.m */,
+				A0441341237A43260059B014 /* SQTextField.h */,
+				A0441342237A43260059B014 /* SQTextField.m */,
+				A0441344237A44AF0059B014 /* SQSearchFieldCell.h */,
+				A0441345237A44AF0059B014 /* SQSearchFieldCell.m */,
+				A0441347237A47440059B014 /* SQSearchField.h */,
+				A0441348237A47440059B014 /* SQSearchField.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -356,6 +376,7 @@
 			files = (
 				A03E40E42373AFBB007C8D54 /* NSMenu+SQ.m in Sources */,
 				A037A9DC236B16B300877CA1 /* NSStepper+SQ.m in Sources */,
+				A0441349237A47440059B014 /* SQSearchField.m in Sources */,
 				A0004DCA2362E8420031F943 /* NSPopover+SQ.m in Sources */,
 				A03E40F22374399B007C8D54 /* NSView+SQ.m in Sources */,
 				A03E40EF2374393B007C8D54 /* SQImageView.m in Sources */,
@@ -367,11 +388,14 @@
 				A0004CA32362976A0031F943 /* main.m in Sources */,
 				A03E40EC237428A1007C8D54 /* NSImageView+SQ.m in Sources */,
 				A01752032366828A00864BC5 /* NSSlider+SQ.m in Sources */,
+				A0441343237A43260059B014 /* SQTextField.m in Sources */,
 				A0004D802362DB640031F943 /* NSDatePicker+SQ.m in Sources */,
 				A0004C98236297680031F943 /* AppDelegate.m in Sources */,
 				A0004CCC23629E490031F943 /* NSTableView+SQ.m in Sources */,
 				A037A9DF236B1ABC00877CA1 /* NSSplitView+SQ.m in Sources */,
 				A0004CC9236298370031F943 /* NSCollectionView+SQ.m in Sources */,
+				A0441340237A41C50059B014 /* NSTextField+SQ.m in Sources */,
+				A0441346237A44AF0059B014 /* SQSearchFieldCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
